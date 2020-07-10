@@ -38,6 +38,10 @@ h2 {
   background-color: #fffdaf;
 }
 
+#WIP {
+  width: 300px;
+}
+
 p {
   margin-top: 20px;
   font-size: 20px;
