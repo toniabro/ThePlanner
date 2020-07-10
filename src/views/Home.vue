@@ -1,18 +1,45 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Header title="Home"></Header>
+    <h1 id="welcome">Welcome to my website!</h1>
+    <div class="info">
+      <h2>Email: tonylicong@gmail.com</h2>
+      <h2>Github: https://github.com/toniabro</h2>
+      <h2>LinkedIn: https://www.linkedin.com/in/tony-li-809471184/</h2>
+    </div>
+    <div>
+      <p>
+        This website is meant to eventually replace the notebook in which I keep
+        my Todo list, workout notes, and video game notes. 
+      </p>
+      <img id="WIP" src="../assets/WorkinProgress.jpg" alt="Italian Trulli">
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import Header from '../components/Header.vue'
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
-    HelloWorld
+    Header
   }
-};
+}
 </script>
+
+<style scoped>
+#welcome {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+  background-color: #fffdaf;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+</style>
