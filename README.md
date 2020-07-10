@@ -1,4 +1,6 @@
 # the_planner
+This is a web app made by Tony Li.
+Right now only the TodoList works. Will be linking it with Firebase soon.
 
 ## Project setup
 ```
